@@ -1,0 +1,18 @@
+body{
+    min-height: 3000px;
+}
+
+.jumbotron{
+    background-color: #ffc10532;
+}
+
+@media (max-width: 768px) {
+    .svg-navbar{
+      display: none;
+    }
+    .jumbotron{
+        padding-top: 6rem;
+    }
+    
+}
+
