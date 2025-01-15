@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.profile-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan */
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #000; /* Warna ikon default */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Animasi hover */
+}
+
+.social-icons a:hover {
+  color: rgb(0, 81, 255); /* Warna saat hover */
+}
+
+.social-icons i {
+  transition: transform 0.3s ease; /* Animasi ikon */
+}
+
+.social-icons a:hover i {
+  transform: scale(1.2); /* Perbesar ikon saat hover */
+}
+
+/* particle canvas */
+#particle-canvas {
+  width: 100%;
+  height: 100%;
+}
